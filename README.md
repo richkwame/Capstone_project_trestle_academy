@@ -16,8 +16,8 @@ Set up a monitoring and error handling system to ensure data quality and pipelin
 
 ### Project Implementation:
 Data Source:
-Sign up for an API key from OpenWeatherMap.
-Identify the endpoints and parameters needed to fetch the weather data.
+Sign up for an API key from OpenWeatherMap.<br>
+Identify the endpoints and parameters needed to fetch the weather data.<br>
 Data Ingestion:<br>
 1.the jupyter notebook 'Python_script' test the API to fetch data from the openweathermap.<br>
 2. The docker-compose file creates a container for the project using airflow and postgres image<br>
