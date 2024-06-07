@@ -19,11 +19,11 @@ Data Source:
 Sign up for an API key from OpenWeatherMap.
 Identify the endpoints and parameters needed to fetch the weather data.
 Data Ingestion:<br>
-1.the jupyter notebook 'Python_script' test the API to fetch data from the openweathermap.
-2. The docker-compose file creates a container for the project using airflow and postgres image
+1.the jupyter notebook 'Python_script' test the API to fetch data from the openweathermap.<br>
+2. The docker-compose file creates a container for the project using airflow and postgres image<br>
 3. The weather_data_injection_retrieval python code runs on airflow to collect weather data from London every one hour and form 7/6/2024<br>
 
 Data Storage:<br>
-The data is then stored in postgres database by creating a connection in airflow
+The data is then stored in postgres database by creating a connection in airflow<br>
 Monitoring and Logging:<br>
 Airflow alerts and email alert for pipeline failures are added to the weather_data_injection_retrieval python code.
