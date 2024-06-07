@@ -15,11 +15,10 @@ Store the data in a PostgreSQL database.
 Set up a monitoring and error handling system to ensure data quality and pipeline reliability.
 
 ### Project Implementation:
-Data Source:
-Sign up for an API key from OpenWeatherMap.<br>
-Identify the endpoints and parameters needed to fetch the weather data.<br>
+Data Source:<br>
+1. API key from OpenWeatherMap.<br>
 Data Ingestion:<br>
-1.the jupyter notebook 'Python_script' test the API to fetch data from the openweathermap.<br>
+1.the jupyter notebook 'Python_script' test the API used to fetch data from the openweathermap.<br>
 2. The docker-compose file creates a container for the project using airflow and postgres image<br>
 3. The weather_data_injection_retrieval python code runs on airflow to collect weather data from London every one hour and form 7/6/2024<br>
 
